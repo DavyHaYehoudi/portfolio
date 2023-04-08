@@ -166,7 +166,7 @@ export const portfolioData = [
     name: "batikal",
     languages: ["m.e.r.n."],
     languagesIcons: ["fa-brands fa-react"],
-    info: "Application web proposant un CRM et la production de devis en HTML",
+    info: "Application web proposant un CRM et la production de devis en HTML avec récupération de data par scrapping",
     picture: "./media/batikal.png",
     demo:"https://www.loom.com/share/4a20211dd08d4c1fa179fa1392434bdd",
   },
@@ -187,5 +187,14 @@ export const portfolioData = [
     info: "Site pour Nowgua, société de sécurité",
     picture: "./media/nowgua.png",
     link:"https://www.nowgua.com/",
+  },
+  {
+    id: 21,
+    name: "naturopathe",
+    languages: ["cms"],
+    languagesIcons: ["fab fa-w"],
+    info: "Site vitrine pour une naturopathe",
+    picture: "./media/naturocindy.png",
+    link:"https://www.cindy-naturopathe.com/",
   },
 ];
