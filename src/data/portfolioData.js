@@ -136,12 +136,12 @@ export const portfolioData = [
 
   {
     id: 15,
-    name: "jungle",
+    name: "naturopathie",
     languages: ["react"],
     languagesIcons: ["fab fa-react"],
-    source: "https://github.com/DavyHaYehoudi/Maison-des-plantes",
-    info: "site e-commerce vendant des plantes",
-    picture: "./media/jungle.png",
+    source: "https://github.com/DavyHaYehoudi/CindyWebsite",
+    info: "site vitrine de naturopathie",
+    picture: "./media/naturocindy.png",
   },
   {
     id: 16,
@@ -188,13 +188,13 @@ export const portfolioData = [
     picture: "./media/nowgua.png",
     link:"https://www.nowgua.com/",
   },
-  {
-    id: 21,
-    name: "naturopathe",
-    languages: ["cms"],
-    languagesIcons: ["fab fa-w"],
-    info: "Site vitrine pour une naturopathe",
-    picture: "./media/naturocindy.png",
-    link:"https://www.cindy-naturopathe.com/",
-  },
+  // {
+  //   id: 21,
+  //   name: "naturopathe",
+  //   languages: ["cms"],
+  //   languagesIcons: ["fab fa-w"],
+  //   info: "Site vitrine pour une naturopathe",
+  //   picture: "./media/naturocindy.png",
+  //   link:"https://www.cindy-naturopathe.com/",
+  // },
 ];

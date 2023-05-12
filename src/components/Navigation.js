@@ -16,7 +16,7 @@ const Navigation = () => {
           <li>
             <NavLink
               to="/"
-              className={({ isActive }) => isActive && "navActive"}
+              className={({ isActive }) => isActive ? "navActive":""}
             >
               <i className="fas fa-home"></i>
               <span>Accueil</span>
@@ -25,7 +25,7 @@ const Navigation = () => {
           <li>
             <NavLink
               to="/knowledges"
-              className={({ isActive }) => isActive && "navActive"}
+              className={({ isActive }) => isActive ? "navActive":""}
             >
               <i className="fas fa-mountain"></i>
               <span>Connaissances</span>
@@ -34,7 +34,7 @@ const Navigation = () => {
           <li>
             <NavLink
               to="/portfolio"
-              className={({ isActive }) => isActive && "navActive"}
+              className={({ isActive }) => isActive ? "navActive":""}
             >
               <i className="fas fa-images"></i>
               <span>Portfolio</span>
@@ -43,7 +43,7 @@ const Navigation = () => {
           <li>
             <NavLink
               to="/contact"
-              className={({ isActive }) => isActive && "navActive"}
+              className={({ isActive }) => isActive ? "navActive":""}
             >
               <i className="fas fa-address-book"></i>
               <span>Contact</span>

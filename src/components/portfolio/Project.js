@@ -17,8 +17,8 @@ const Project = ({ item }) => {
       <h3>{item.name}</h3>
       <img src={item.picture} alt={item.picture} onClick={handleInfo} />
       <span className="infos" onClick={handleInfo}>
-        <i className="fas fa-plus-circle"></i>
-      </span>
+      <i class="fa-sharp fa-solid fa-circle-info"></i>     
+       </span>
 
       {showInfo && (
         <div className="showInfos">

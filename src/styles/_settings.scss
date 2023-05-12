@@ -11,13 +11,13 @@ $font-3: 'Josefin Sans', serif;
 // $color-5: #36D0EA;
 // $white: #ddd;
 // $black: #333;
-$color-1: #1b1b1d;
-$color-2: #0b1ff760;
-$color-3: rgb(63, 147, 238);
-$color-4: #3a4df7;
+$color-1: #404040;
+$color-2: #8C8C8C;
+$color-3: #F2F2F2;
+$color-4: #BFBFBF;
 $color-5: #e0dee6;
-$white: #ddd;
-$black: rgb(29, 28, 28);
+$white: #F2F2F2;
+$black: #0D0D0D;
 
 $borderRadius: 25px;
 $shadow: 0 1px 3px #333;
@@ -32,6 +32,8 @@ $minHeight: 95vh;
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  //  Debugging horizontal scroll 
+  // box-shadow: 0 0 0 3px red inset;
 }
 body {
   margin: 1rem auto;
