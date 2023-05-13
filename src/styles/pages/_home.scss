@@ -3,13 +3,13 @@
     background: linear-gradient(50deg, $color-1 20%, transparent 100%);
     // min-height: $minHeight;
     width: 100%;
-    // min-height: 500px;
     border-radius: $borderRadius;
     position: relative;
     overflow: hidden;
     display: flex;
     justify-content: center;
-    align-items: center;
+    text-align: center;
+    padding-top: 200px;
 
     &:after {
       content: "";
@@ -27,6 +27,12 @@
       // left: 13%;
 
       font-family: $font-1;
+      img {
+        border-radius: 2rem;
+        box-shadow:0 0 0 3px $color-4, 0 0 0 2px $color-2;
+        margin: 50px auto;
+        display: none;
+      }
 
       h1 {
         font-size: 5rem;
@@ -61,7 +67,20 @@
 }
 @media screen and (max-width: 850px) {
   .homeContent {
-    margin: 0 !important;
+    margin: auto !important;
+    width: inherit !important;
+    padding-top: inherit !important;
+
+    &:after{
+      position: inherit !important;
+      height: 100vh !important;
+    }
+    
+  }
+  .content{
+    img {
+      display: block !important;
+     }
   }
 }
 @media screen and (max-width: 580px) {

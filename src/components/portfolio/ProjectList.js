@@ -30,7 +30,7 @@ const ProjectList = () => {
               checked={radio.language === selectedRadio}
               onChange={handleRadio}
             />
-            <label htmlFor={radio.language}>{radio.language}</label>
+            <label htmlFor={radio.id}>{radio.language}</label>
           </li>
         ))}
       </ul>
