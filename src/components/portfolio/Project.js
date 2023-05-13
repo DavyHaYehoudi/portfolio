@@ -61,7 +61,7 @@ const Project = ({ item }) => {
             <p className="text">{item.info}</p>
 
             <div className="button return" onClick={handleInfo}>
-              Back
+              Fermer
             </div>
           </div>
         </div>
