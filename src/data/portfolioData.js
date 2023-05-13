@@ -142,6 +142,7 @@ export const portfolioData = [
     source: "https://github.com/DavyHaYehoudi/CindyWebsite",
     info: "site vitrine de naturopathie",
     picture: "./media/naturocindy.png",
+    link:"https://www.cindy-naturopathe.com/",
   },
   {
     id: 16,
