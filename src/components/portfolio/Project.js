@@ -5,6 +5,7 @@ const Project = ({ item }) => {
 
   const handleInfo = () => {
     setShowInfo(!showInfo);
+    window.scrollTo({ top: 0, behavior: "smooth" });
   };
 
   return (

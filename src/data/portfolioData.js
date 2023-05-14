@@ -1,23 +1,25 @@
 export const portfolioData = [
-  // {
-  //   id: 1,
-  //   name: "mirors",
-  //   languages: ["css"],
-  //   languagesIcons: ["fab fa-css3-alt"],
-  //   source: "https://github.com/DavyHaYehoudi/miroirs",
-  //   info: "5 images avec l'effet miroir",
-  //   picture: "./media/miroirs.png",
-  // },
+  {
+    id: 1,
+    name: "mirors",
+    languages: ["css"],
+    languagesIcons: ["fab fa-css3-alt"],
+    source: "https://github.com/DavyHaYehoudi/miroirs",
+    info: "5 images avec l'effet miroir",
+    picture: "./media/miroirs.png",
+    link:"https://mirors-fef74.web.app/",
+  },
 
-  // {
-  //   id: 2,
-  //   name: "cube3D",
-  //   languages: ["css"],
-  //   languagesIcons: ["fab fa-css3-alt"],
-  //   source: "https://github.com/DavyHaYehoudi/Cube3Danimation",
-  //   info: "Cube rotatif 3D auto-animé avec effets de transparence",
-  //   picture: "./media/Cube3Danimation.png",
-  // },
+  {
+    id: 2,
+    name: "cube3D",
+    languages: ["css"],
+    languagesIcons: ["fab fa-css3-alt"],
+    source: "https://github.com/DavyHaYehoudi/Cube3Danimation",
+    info: "Cube rotatif 3D auto-animé avec effets de transparence",
+    picture: "./media/Cube3Danimation.png",
+    link:"https://cube3d-4172e.web.app/",
+  },
 
   {
     id: 3,
@@ -27,6 +29,7 @@ export const portfolioData = [
     source: "https://github.com/DavyHaYehoudi/HEBERGEMENTS-MARSEILLE",
     info: `1er projet Openclassrooms : reproduire une maquette designer pour des hébergements sur Marseille`,
     picture: "./media/Marseille.png",
+    link:"https://hebergement-marseille.web.app/",
   },
   {
     id: 4,
@@ -36,15 +39,17 @@ export const portfolioData = [
     source: "https://github.com/DavyHaYehoudi/Zozor",
     info: `Mon tout premier projet: reproduire une maquette designer`,
     picture: "./media/Zozor.png",
+    link:"https://zozor-612f4.web.app/",
   },
   {
     id: 5,
     name: "ohmyfood",
     languages: ["css"],
-    languagesIcons: ["fab fa-css3-alt"],
+    languagesIcons: ["fab fa-css3-alt","fa-brands fa-sass"],
     source: "https://github.com/DavyHaYehoudi/MENUS-RESTAURANTS",
     info: "2ème projet Openclassrooms : reproduire une maquette ainsi que de nombreuses animations uniquement codées en CSS",
     picture: "./media/OHMYFOOD.png",
+    link:"https://ohmyfood-cc551.web.app/",
   },
   // {
   //   id: 6,
@@ -66,24 +71,24 @@ export const portfolioData = [
   //   demo:"https://www.loom.com/share/87544d3984244e09951431d57961cc65",
   // },
 
-  {
-    id: 8,
-    name: "groupmania",
-    languages: ["m.e.r.n."],
-    languagesIcons: ["fab fa-react"],
-    source: "https://github.com/DavyHaYehoudi/Groupomania",
-    info: "6ème et dernier projet openclassrooms : mini réseau social utilisant une interface développée en Vue.js, un backend en Node.js relié à une base de données MySql",
-    picture: "./media/Groupmania.png",
-  },
+  // {
+  //   id: 8,
+  //   name: "groupmania",
+  //   languages: ["m.e.r.n."],
+  //   languagesIcons: ["fab fa-react"],
+  //   source: "https://github.com/DavyHaYehoudi/Groupomania",
+  //   info: "6ème et dernier projet openclassrooms : mini réseau social utilisant une interface développée en Vue.js, un backend en Node.js relié à une base de données MySql",
+  //   picture: "./media/Groupmania.png",
+  // },
   {
     id: 9,
     name: "shoppinglist",
     languages: ["js"],
-    languagesIcons: ["fab fa-js"],
+    languagesIcons: ["fab fa-js",],
     source: "https://github.com/DavyHaYehoudi/hackaton-1",
     info: "1er hackathon du bootcamp sur Tel Aviv  : liste intelligente de shopping avec entrée des ingrédients, animation drag&drop de la liste des items, localstorage et envoi de la commande par mail",
     picture: "./media/shoppingList.png",
-    demo:"https://www.loom.com/share/2251112d0d09413881d8ffc62cff6c29",
+    link:"https://to-do-list-95bf1.web.app/",
   },
   {
     id: 10,
@@ -93,21 +98,23 @@ export const portfolioData = [
     source: "https://github.com/DavyHaYehoudi/compteur-de-click",
     info: "Compteur de clicks avec ajustements, reset, avec choix de saut ou de recul de plusieurs unités",
     picture: "./media/compteur-cliks.png",
+    link:"https://compteur-de-clics.web.app/"
   },
   {
     id: 11,
     name: "orinoco",
     languages: ["js"],
-    languagesIcons: ["fab fa-js"],
+    languagesIcons: ["fab fa-js","fa-brands fa-node"],
     source: "https://github.com/DavyHaYehoudi/P5_SEBBAH_Davy",
     info: "4ème projet Openclassrooms : site e-commerce utilisant une base de données statique (JSON web server)",
     picture: "./media/Orinoco.png",
+    demo:"https://www.loom.com/share/2a00a19f575246e280ce6c996e977473"
   },
   {
     id: 12,
     name: "donkposts",
     languages: ["m.e.r.n."],
-    languagesIcons: ["fab fa-react"],
+    languagesIcons: ["fab fa-react","fa-brands fa-node","fa-solid fa-leaf","fa-brands fa-sass"],
     source: "https://github.com/DavyHaYehoudi/FinalProjectDI",
     info: "Projet final du bootcamp Tel Aviv: mini réseau social avec la possibilité de télécharger des images, de supprimer ou de modifier des posts. Relié à MongoDB,  protection token",
     picture: "./media/DonkPosts.png",
@@ -131,7 +138,7 @@ export const portfolioData = [
     source: "https://github.com/DavyHaYehoudi/FlagsWorld",
     info: "Présentation dynamique selon les continents et leurs drapeaux officiels",
     picture: "./media/FlagsWorld.png",
-    demo:"https://www.loom.com/share/52d8a690c0cf453ca6f79a87ca84edbb",
+    link:"https://flags-world.web.app/"
   },
 
   {
@@ -148,10 +155,11 @@ export const portfolioData = [
     id: 16,
     name: "mini-Netflix",
     languages: ["react"],
-    languagesIcons: ["fab fa-react"],
+    languagesIcons: ["fab fa-react","fa-brands fa-sass"],
     source: "https://cineflix-dcd6d.web.app/",
     info: "Netflix en miniature",
     picture: "./media/cineflix.png",
+    link:"https://cineflix-4c9f3.web.app/"
   },
   // {
   //   id: 17,
@@ -166,7 +174,7 @@ export const portfolioData = [
     id: 18,
     name: "batikal",
     languages: ["m.e.r.n."],
-    languagesIcons: ["fa-brands fa-react"],
+    languagesIcons: ["fa-brands fa-react","fa-brands fa-node","fa-solid fa-leaf"],
     info: "Application web proposant un CRM et la production de devis en HTML avec récupération de data par scrapping",
     picture: "./media/batikal.png",
     demo:"https://www.loom.com/share/4a20211dd08d4c1fa179fa1392434bdd",

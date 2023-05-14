@@ -118,7 +118,7 @@
       font-family: $font-2;
       font-size: 1.65rem;
       @include verticalCenter;
-      justify-content: left;
+      justify-content: center;
     }
     img {
       grid-area: 3;
@@ -164,7 +164,8 @@
         background: $color-1;
         border-radius: $borderRadius;
         padding: 2rem;
-        box-shadow: 0 10px 10px #333;
+        border: 2px solid $white;
+        box-shadow: 0 5px 10px $white;
         animation: popup 0.6s ease forwards;
         transform: scale(0);
         transform-origin: center;
@@ -224,7 +225,7 @@
 @media (max-width: 520px) {
   .radioDisplay {
     flex-wrap: wrap;
-    padding: 2px !important;
+    padding:  5px !important;
   }
   .portfolioContent {
     .project {
