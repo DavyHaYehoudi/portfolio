@@ -1,6 +1,7 @@
 .home {
   .homeContent {
-    background: linear-gradient(50deg, $color-1 20%, transparent 100%);
+    background: url('../../media/earth.png') no-repeat center/cover;
+    // background: linear-gradient(50deg, $color-1 20%, transparent 100%);
     // min-height: $minHeight;
     width: 100%;
     border-radius: $borderRadius;
@@ -16,7 +17,7 @@
       position: absolute;
       height: 100%;
       width: inherit;
-      // background: url('../../media/bg.jpg') no-repeat center/contain;
+      // background: url('../../media/earth.png') no-repeat center/contain;
       z-index: -1;
       filter: brightness(80%);
     }
