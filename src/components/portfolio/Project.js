@@ -44,8 +44,9 @@ const Project = ({ item }) => {
                   rel="noopener noreferrer"
                   className="button"
                   target="_blank"
+                  title="< code source />"
                 >
-                  Source
+                  <i className="fa-solid fa-code"></i>
                 </a>
               </div>}
               {item.link&&<div className="sourceCode">
@@ -54,8 +55,9 @@ const Project = ({ item }) => {
                   rel="noopener noreferrer"
                   className="button"
                   target="_blank"
+                  title="voir le site"
                 >
-                  <i className="fa-solid fa-link" ></i>
+                  <i className="fa-solid fa-up-right-from-square"></i>
                 </a>
               </div>}
             </div>
