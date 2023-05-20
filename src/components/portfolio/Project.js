@@ -1,25 +1,7 @@
-import React, { useEffect, useRef, useState } from "react";
+import React, { useState } from "react";
 
 const Project = ({ item }) => {
   const [showInfo, setShowInfo] = useState(false);
-
-  const showRef = useRef(null);
-
-  useEffect(() => {
-    const handleClickOutside = (event) => {
-      if (showRef.current && showRef.current.contains(event.target)) {
-        setShowInfo(false);
-      }
-    };
-    if (showInfo) {
-      document.addEventListener("click", handleClickOutside);
-    }
-  }, [showInfo]);
-
-  const handleInfo = () => {
-    setShowInfo(!showInfo);
-    window.scrollTo({ top: 0, behavior: "smooth" });
-  };
 
   return (
     <div className="project">
@@ -29,13 +11,18 @@ const Project = ({ item }) => {
         ))}
       </div>
       <h3>{item.name}</h3>
-      <img src={item.picture} alt={item.picture} onClick={handleInfo} />
-      <span className="infos" onClick={handleInfo}>
+      <img
+        src={item.picture}
+        alt={item.picture}
+        onClick={() => setShowInfo(true)}
+      />
+      <span className="infos" onClick={() => setShowInfo(true)}>
         <i className="fa-sharp fa-solid fa-circle-info"></i>
       </span>
 
       {showInfo && (
-        <div className="showInfos" ref={showRef}>
+        <div className="showInfos">
+          <div className="modalBg" onClick={() => setShowInfo(false)}></div>
           <div className="infosContent">
             <div className="head">
               <h2>{item.name}</h2>
@@ -80,7 +67,7 @@ const Project = ({ item }) => {
             </div>
             <p className="text">{item.info}</p>
 
-            <div className="button return" onClick={handleInfo}>
+            <div className="button return" onClick={() => setShowInfo(false)}>
               Fermer
             </div>
           </div>

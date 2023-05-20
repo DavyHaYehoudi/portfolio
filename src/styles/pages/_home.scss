@@ -1,6 +1,6 @@
 .home {
   .homeContent {
-    background: url('../../media/earth.png') no-repeat center/cover;
+    background: url("../../media/earth.png") no-repeat center/cover;
     // background: linear-gradient(50deg, $color-1 20%, transparent 100%);
     // min-height: $minHeight;
     width: 100%;
@@ -30,7 +30,7 @@
       font-family: $font-1;
       img {
         border-radius: 2rem;
-        box-shadow:0 0 0 3px $color-4, 0 0 0 2px $color-2;
+        box-shadow: 0 0 0 3px $color-4, 0 0 0 2px $color-2;
         margin: 50px auto;
         display: none;
       }
@@ -73,16 +73,15 @@
     width: inherit !important;
     padding-top: inherit !important;
 
-    &:after{
+    &:after {
       position: inherit !important;
       height: 100vh !important;
     }
-    
   }
-  .content{
+  .content {
     img {
       display: block !important;
-     }
+    }
   }
 }
 @media screen and (max-width: 580px) {
