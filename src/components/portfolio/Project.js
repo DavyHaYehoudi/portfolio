@@ -2,6 +2,10 @@ import React, { useState } from "react";
 
 const Project = ({ item }) => {
   const [showInfo, setShowInfo] = useState(false);
+  const handleInfo=()=>{
+    setShowInfo(true);
+    window.scrollTo({ top:0,behavior: "smooth"})
+  }
 
   return (
     <div className="project">
@@ -14,9 +18,9 @@ const Project = ({ item }) => {
       <img
         src={item.picture}
         alt={item.picture}
-        onClick={() => setShowInfo(true)}
+        onClick={handleInfo}
       />
-      <span className="infos" onClick={() => setShowInfo(true)}>
+      <span className="infos" onClick={handleInfo}>
         <i className="fa-sharp fa-solid fa-circle-info"></i>
       </span>
 
