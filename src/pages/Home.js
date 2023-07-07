@@ -7,7 +7,7 @@ const Home = () => {
       <Navigation />
       <div className="homeContent">
         <div className="content">
-        <img src="./media/profil.png" alt="profil" />
+        <img src="./media/profil.png" alt="profil" width="249px" height="136px" />
           <h1>Davy SEBBAH</h1>
           <h2>Développeur WEB <br/> full-stack</h2>
           <div className="pdf">

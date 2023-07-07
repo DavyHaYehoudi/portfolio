@@ -2,7 +2,7 @@ export const portfolioData = [
   {
     id: 1,
     name: "mirors",
-    languages: ["css"],
+    languages: ["css","tous"],
     languagesIcons: ["fab fa-css3-alt"],
     source: "https://github.com/DavyHaYehoudi/miroirs",
     info: "5 images avec l'effet miroir",
@@ -13,7 +13,7 @@ export const portfolioData = [
   {
     id: 2,
     name: "cube3D",
-    languages: ["css"],
+    languages: ["css","tous"],
     languagesIcons: ["fab fa-css3-alt"],
     source: "https://github.com/DavyHaYehoudi/Cube3Danimation",
     info: "Cube rotatif 3D auto-animé avec effets de transparence",
@@ -23,8 +23,8 @@ export const portfolioData = [
 
   {
     id: 3,
-    name: "hébergements Marseille",
-    languages: ["css"],
+    name: "hôtels à Marseille",
+    languages: ["css","tous"],
     languagesIcons: ["fab fa-css3-alt"],
     source: "https://github.com/DavyHaYehoudi/HEBERGEMENTS-MARSEILLE",
     info: `1er projet Openclassrooms : reproduire une maquette designer pour des hébergements sur Marseille`,
@@ -34,7 +34,7 @@ export const portfolioData = [
   {
     id: 4,
     name: "zozor",
-    languages: ["css"],
+    languages: ["css","tous"],
     languagesIcons: ["fab fa-css3-alt"],
     source: "https://github.com/DavyHaYehoudi/Zozor",
     info: `Mon tout premier projet: reproduire une maquette designer`,
@@ -44,7 +44,7 @@ export const portfolioData = [
   {
     id: 5,
     name: "ohmyfood",
-    languages: ["css"],
+    languages: ["css","tous"],
     languagesIcons: ["fab fa-css3-alt","fa-brands fa-sass"],
     source: "https://github.com/DavyHaYehoudi/MENUS-RESTAURANTS",
     info: "2ème projet Openclassrooms : reproduire une maquette ainsi que de nombreuses animations uniquement codées en CSS",
@@ -83,7 +83,7 @@ export const portfolioData = [
   {
     id: 9,
     name: "shoppinglist",
-    languages: ["js"],
+    languages: ["js","tous"],
     languagesIcons: ["fab fa-js",],
     source: "https://github.com/DavyHaYehoudi/hackaton-1",
     info: "1er hackathon du bootcamp sur Tel Aviv  : liste intelligente de shopping avec entrée des ingrédients, animation drag&drop de la liste des items, localstorage et envoi de la commande par mail",
@@ -93,7 +93,7 @@ export const portfolioData = [
   {
     id: 10,
     name: "compteur de clicks",
-    languages: ["js"],
+    languages: ["js","tous"],
     languagesIcons: ["fab fa-js"],
     source: "https://github.com/DavyHaYehoudi/compteur-de-click",
     info: "Compteur de clicks avec ajustements, reset, avec choix de saut ou de recul de plusieurs unités",
@@ -103,7 +103,7 @@ export const portfolioData = [
   {
     id: 11,
     name: "orinoco",
-    languages: ["js"],
+    languages: ["js","tous"],
     languagesIcons: ["fab fa-js","fa-brands fa-node"],
     source: "https://github.com/DavyHaYehoudi/P5_SEBBAH_Davy",
     info: "4ème projet Openclassrooms : site e-commerce utilisant une base de données statique (JSON web server)",
@@ -113,7 +113,7 @@ export const portfolioData = [
   {
     id: 12,
     name: "donkposts",
-    languages: ["m.e.r.n."],
+    languages: ["m.e.r.n.","tous"],
     languagesIcons: ["fab fa-react","fa-brands fa-node","fa-solid fa-leaf","fa-brands fa-sass"],
     source: "https://github.com/DavyHaYehoudi/FinalProjectDI",
     info: "Projet final du bootcamp Tel Aviv: mini réseau social avec la possibilité de télécharger des images, de supprimer ou de modifier des posts. Relié à MongoDB,  protection token",
@@ -133,7 +133,7 @@ export const portfolioData = [
   {
     id: 14,
     name: "flagsword",
-    languages: ["react"],
+    languages: ["react","tous"],
     languagesIcons: ["fab fa-react"],
     source: "https://github.com/DavyHaYehoudi/FlagsWorld",
     info: "Présentation dynamique selon les continents et leurs drapeaux officiels",
@@ -144,7 +144,7 @@ export const portfolioData = [
   {
     id: 15,
     name: "naturopathie",
-    languages: ["react"],
+    languages: ["react","tous"],
     languagesIcons: ["fab fa-react","fa-brands fa-bootstrap"],
     source: "https://github.com/DavyHaYehoudi/CindyWebsite",
     info: "site vitrine de naturopathie",
@@ -154,7 +154,7 @@ export const portfolioData = [
   {
     id: 16,
     name: "mini-Netflix",
-    languages: ["react"],
+    languages: ["react","tous"],
     languagesIcons: ["fab fa-react","fa-brands fa-sass"],
     source: "https://cineflix-dcd6d.web.app/",
     info: "Netflix en miniature",
@@ -173,7 +173,7 @@ export const portfolioData = [
   {
     id: 18,
     name: "batikal",
-    languages: ["m.e.r.n."],
+    languages: ["m.e.r.n.","tous"],
     languagesIcons: ["fa-brands fa-react","fa-brands fa-node","fa-solid fa-leaf","fa-brands fa-bootstrap"],
     info: "Application web proposant un CRM et la production de devis en HTML avec récupération de data par scrapping",
     picture: "./media/batikal.png",
@@ -182,7 +182,7 @@ export const portfolioData = [
   {
     id: 19,
     name: "unitech",
-    languages: ["cms"],
+    languages: ["cms","tous"],
     languagesIcons: ["fa-solid fa-w"],
     info: "Site pour Alon Active, société de sécurité, +20 pages",
     picture: "./media/unitech.png",
@@ -191,7 +191,7 @@ export const portfolioData = [
   {
     id: 20,
     name: "nowgua",
-    languages: ["cms"],
+    languages: ["cms","tous"],
     languagesIcons: ["fab fa-wix"],
     info: "Site pour Nowgua, société de sécurité",
     picture: "./media/nowgua.png",

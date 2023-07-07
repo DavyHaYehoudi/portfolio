@@ -9,6 +9,7 @@
     grid-template-areas:
       "1"
       "2";
+    border-radius: $borderRadius;
   }
 
   .radioDisplay {
@@ -16,7 +17,7 @@
     border-radius: $borderRadius;
     display: flex;
     width: 100%;
-    padding: 1rem 2rem;
+    padding: 2rem 2rem;
     margin: 0 auto;
     background: $color-1;
     user-select: none;
@@ -44,7 +45,7 @@
           height: 0.9rem;
           width: 0.9rem;
           border-radius: 50%;
-          border: 2px solid $color-4;
+          border: 2px solid $color-5;
           cursor: pointer;
           transition: 0.3s;
         }
@@ -70,7 +71,7 @@
         left: -6px;
       }
       input:checked + label {
-        color: $color-4;
+        color: $color-3;
       }
       label {
         cursor: pointer;
@@ -82,7 +83,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-
+padding: 10px;
     .project {
       background: $color-2;
       border-radius: $borderRadius;

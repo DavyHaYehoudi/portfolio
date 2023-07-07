@@ -3,15 +3,16 @@ import { portfolioData } from "../../data/portfolioData";
 import Project from "./Project";
 
 const ProjectList = () => {
-  const [projects, setProjects] = useState(portfolioData);
-  const [radio, setRadio] = useState([
+  const [projects] = useState(portfolioData);
+  const [radio] = useState([
+    { id: "0", language: "tous" },
     { id: "1", language: "js" },
     { id: "2", language: "react" },
     { id: "3", language: "css" },
     { id: "4", language: "m.e.r.n." },
     { id: "5", language: "cms" },
   ]);
-  const [selectedRadio, setSelectedRadio] = useState("js");
+  const [selectedRadio, setSelectedRadio] = useState("tous");
 
   const handleRadio = (e) => {
     setSelectedRadio(e.target.value);
