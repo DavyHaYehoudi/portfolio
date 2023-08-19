@@ -4,7 +4,7 @@ import ClipboardJS from "clipboard";
 import { Link } from "react-router-dom";
 
 const Contact = () => {
-  const phoneNumber = "0538640333";
+  const phoneNumber = "0602535274";
   new ClipboardJS(".fa-solid");
 
   return (
@@ -31,7 +31,7 @@ const Contact = () => {
             <li>
               <Link to={`tel:${phoneNumber}`}>
                 <i className="fas fa-mobile-alt"></i>
-                <span>053 8640333 </span>
+                <span>06 02 53 52 74 </span>
               </Link>
             </li>
             <li>
