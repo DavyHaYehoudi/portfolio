@@ -163,7 +163,7 @@ export const portfolioData = [
   },
   {
     id: 16,
-    name: "mini-Netflix",
+    name: "Netflyx",
     languages: ["react","tous"],
     languagesIcons: ["fab fa-react","fa-brands fa-sass"],
     source: "https://cineflix-dcd6d.web.app/",
@@ -216,4 +216,13 @@ export const portfolioData = [
   //   picture: "./media/naturocindy.png",
   //   link:"https://www.cindy-naturopathe.com/",
   // },
+  {
+    id: 23,
+    name: "Atelier Noralya",
+    languages: ["m.e.r.n.","tous"],
+    languagesIcons: ["fa-brands fa-react","fa-brands fa-node","fa-solid fa-leaf","fa-brands"],
+    info: "Site e-commerce intégralement conçu sur le model de Shopify avec backoffices admin et customer",
+    picture: "./media/atelier-noralya.png",
+    link:"https://noralyapreprod.web.app/",
+  },
 ];

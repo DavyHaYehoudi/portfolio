@@ -7,10 +7,11 @@
   overflow: hidden;
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: 20% 45% 35%;
+  grid-template-rows: 20% 35%;
+  // grid-template-rows: 20% 45% 35%;
   grid-template-areas: 
     "1"
-    "2"
+    // "2"
     "3";
 
   .header {

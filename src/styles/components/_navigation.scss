@@ -91,7 +91,8 @@
       display: flex;
       width: 264px;
       padding: 0 14px;
-      justify-content: space-between;
+      justify-content: space-around;
+      gap: 8px;
 
       li {
         font-size: 1.5rem;

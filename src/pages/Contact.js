@@ -16,19 +16,6 @@ const Contact = () => {
           <h1>Pour me contacter</h1>
           <ul>
             <li>
-              <Link
-                to="https://www.google.com/maps/place/5+All.+Charles+Dullin,+13500+Martigues,+France/@43.4287281,5.0412549,17z/data=!3m1!4b1!4m6!3m5!1s0x12b61e3e70f4ea2b:0xa1fd47f8ab7c05a9!8m2!3d43.4287281!4d5.0438298!16s%2Fg%2F11c4kc5n0n?authuser=0"
-                rel="noopener noreferrer"
-                target="_blanck"
-              >
-                <i className="fas fa-map-marker-alt"></i>
-                <span>
-                  05 allée Charles Dullin <br />
-                  13 500 Martigues
-                </span>
-              </Link>
-            </li>
-            <li>
               <Link to={`tel:${phoneNumber}`}>
                 <i className="fas fa-mobile-alt"></i>
                 <span>06 02 53 52 74 </span>
@@ -72,20 +59,6 @@ const Contact = () => {
             >
               {/* <h4>Github</h4> */}
               <i className="fab fa-github"></i>
-            </a>
-
-            <a href="" target="_blank" rel="noopener noreferrer">
-              {/* <h4>Twitter</h4> */}
-              <i className="fab fa-twitter"></i>
-            </a>
-
-            <a
-              href="https://www.linkedin.com/in/davy-sebbah-2a2b4620b/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              {/* <h4>Facebook</h4> */}
-              <i className="fab fa-facebook"></i>
             </a>
           </ul>
         </div>

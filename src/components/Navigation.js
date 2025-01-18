@@ -2,6 +2,7 @@ import React from "react";
 import { NavLink } from "react-router-dom";
 
 const Navigation = () => {
+  const currentYear = new Date().getFullYear();
   return (
     <div className="sidebar">
       <div className="id">
@@ -56,7 +57,7 @@ const Navigation = () => {
         <ul>
           <li>
             <a
-              href="https://www.linkedin.com/in/davy-sebbah-2a2b4620b/?locale=en_US"
+              href="https://www.linkedin.com/in/davy-sebbah-2a2b4620b/"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -72,29 +73,11 @@ const Navigation = () => {
               <i className="fab fa-github"></i>
             </a>
           </li>
-          <li>
-            <a
-              href="https://www.linkedin.com/in/davy-sebbah-2a2b4620b/?locale=en_US"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <i className="fab fa-twitter"></i>
-            </a>
-          </li>
-          <li>
-            <a
-              href="https://www.linkedin.com/in/davy-sebbah-2a2b4620b/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <i className="fab fa-facebook"></i>
-            </a>
-          </li>
         </ul>
         <div className="signature">
           <p>
             <a href="https://openclassrooms.com/fr/dashboard/paths">
-              Développeur WEB full-stack - 2023
+              Développeur WEB React - NodeJs  {currentYear}
             </a>
           </p>
         </div>
