@@ -19,7 +19,7 @@ const Experience = () => {
       </div>
       <div className="exp-2">
         <h4>Développeur WEB -Israel France</h4>
-        <h5>2021-2023</h5>
+        <h5>2021-2025</h5>
         <p>
           En février 2021, j'ai commencé de zéro à apprendre la programmation.
           J'ai suivi la formation Openclassrooms de
